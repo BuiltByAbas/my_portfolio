@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+    <!-- Installing bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!-- Adding a favicon to my tab -->
+    <link rel="icon" type="image/png" href="assets/images/4.png">
+
+    <!-- Installing fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    
+    <!-- Installing Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Linking my external css files -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand w-75 d-flex align-items-center ps-1"><img src="assets/images/4.png" style="width: 35px; height: 35px;" alt="My personal logo"><h1 class="mt-2">BuiltByAbas</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="navbar">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <li class="nav-item" id="navbar">
+                            <a class="nav-link active" aria-current="page" href="about.html"><i class="fa-solid fa-user"></i> About</a>
+                        </li>
+                        <li class="nav-item" id="navbar">
+                            <a class="nav-link active" href="projects.html"><i class="fa-solid fa-brain"></i> Projects</a>
+                        </li>
+                        <li class="nav-item" id="navbar">
+                            <a class="nav-link active" href="https://github.com/BuiltByAbas" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #050505;"></i> GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="projects-heading">
+        <h2>Digital Footprints</h2>
+        <p>
+            A trail of ideas, experiments and things I've brought to life through code.
+        </p>
+    </div>
+    
+
+    <!-- Project Categories -->
+    <nav class="filter-projects" aria-label="Filter projects">
+        <button type="button" aria-pressed="true">All Projects</button>
+        <button type="button" aria-pressed="false">Coursework</button>
+        <button type="button" aria-pressed="false">Personal Projects</button>
+    </nav>
+    
+    <!-- Projects -->
+    <section class="sectProj">
+        <h2 id="project-list-heading">Selected Projects</h2>
+
+        <div id="projects-grid">
+
+            <!-- 1st project -->
+            <article class="project-card" data-category="coursework">
+                <img src="assets/images/projects/project1.png" alt="preview of my 1st project">
+                <div>
+                    <h3>Portfolio Website</h3>
+                    <p>A website that acts as a history book of my professional career</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="#">View live project</a>
+                    <a href="#">View source code</a>
+                </div>
+            </article>
+
+            <!-- 2nd Project -->
+            <article class="project-card" data-category="personal" >
+                <img src="assets/images/projects/project2.png" alt="preview of my 2nd project">
+                <div>
+                    <h3>Portfolio Website</h3>
+                    <p>A website that acts as a history book of my professional career</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="#">View live project</a>
+                    <a href="#">View source code</a>
+                </div>
+            </article>
+
+            <!-- 3rd project -->
+            <article class="project-card" data-category="personal" >
+                <img src="assets/images/projects/project3.png" alt="preview of my 3rd project">
+                <div>
+                    <h3>Portfolio Website</h3>
+                    <p>A website that acts as a history book of my professional career</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="#">View live project</a>
+                    <a href="#">View source code</a>
+                </div>
+            </article>
+
+            <!-- 4th project -->
+            <article class="project-card" data-category="personal">
+                <img src="assets/images/projects/project4.png" alt="preview of my 4th project">
+                <div>
+                    <h3>Portfolio Website</h3>
+                    <p>A website that acts as a history book of my professional career</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="#">View live project</a>
+                    <a href="#">View source code</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <footer>
+            <hr>
+                <div>
+                    <p>&copy; 2026 BuiltByAbas</p>
+                </div>
+        </footer>
+        
+    <!-- linking my projects.js file -->
+    <script src="assets/js/projects.js" ></script>
+</body>
+</html>
